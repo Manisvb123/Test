@@ -1,0 +1,18 @@
+{
+	"Page": {
+		"userid": "userid",
+		"prjid": "ProjectID",
+		"toolid": "ToolID",
+		"toolver": "ToolVersion",
+		"tmplname": "TemplateName",
+		"tmplver": "TemplateVersion",
+		"pgno": "1",
+		"pgid": "PG-001",
+		"numqns": "4",
+		"commonInfo": {
+			"title": "Strategy Stress Test",
+			"inst": "Please enter on a 4 point scale how much you Agree or Disagree with the statements below.Scoring is from Strongly Agree (1) to Strongly Disagree(4). Please click Don't Know/Not Sure only where you are unaware, not to express a neutral opinion.",
+			"Rmrks": "Remarks"
+		}
+	}
+}

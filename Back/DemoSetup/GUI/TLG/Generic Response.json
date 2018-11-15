@@ -1,0 +1,10 @@
+{
+	"Response": [
+		{
+			"ReqType": "RequestedOperationType",
+			"Status": "Status",
+			"ErrCode": "ErrorCode",
+			"Description": "Description"
+		}
+	]
+}

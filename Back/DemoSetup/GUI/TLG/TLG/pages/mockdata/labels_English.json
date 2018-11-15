@@ -1,0 +1,29 @@
+{
+    "side_bar":{
+        "side_bar_list":[{
+				"main_heading" : "Project",
+				"cssclass" : "fa fa-users",
+				"url" : "#/sst",
+				"secondLevel" : true,
+				"subLinks" : [{
+					"url" : "#/sst",
+					"description" : "SST",
+					"cssclass" : "fa fa-circle-o"
+				},{
+					"url" : "#/brexit",
+					"description" : "Brexit",
+					"cssclass" : "fa fa-circle-o"
+				}]
+			}]
+    },
+    "sst":{
+    	"lbl_sst": "SST",
+    	"btn_next_lbl": "Next",
+    	"btn_prev_lbl": "Previous",
+    	"btn_submit_lbl": "Submit",
+    	"btn_draft_lbl": "Draft",
+    	"sst_submit_success_msg":"SST Questionnaires Submitted Successfully",
+    	"sst_draft_success_msg":"SST Questionnaires Submitted Successfully",
+    	"sst_brexit_submit_success_msg":"SST Brexit Questionnaires Submitted Successfully"
+    }
+}

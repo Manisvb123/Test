@@ -1,0 +1,120 @@
+{
+    "description": "Will show how different users and teams have scored for the question",
+    "questionDesc": "We have all of the external competitive strengths (eg technology, brand, distribution, scale, access) we need to ensure we can win with our strategy",
+    "questionId": "Q-002",
+    "teamData": [
+        {
+            "teamId": "Team-003",
+            "teamName": "Production",
+            "teamScore": 72,
+            "userData": [
+                {
+                    "metricName": "EPS",
+                    "metricValue": 65,
+                    "userId": "user010",
+                    "userName": "user10"
+                },
+                {
+                    "metricName": "EPS",
+                    "metricValue": 61,
+                    "userId": "user011",
+                    "userName": "user11"
+                },
+                {
+                    "metricName": "EPS",
+                    "metricValue": 60,
+                    "userId": "user012",
+                    "userName": "user12"
+                },
+                {
+                    "metricName": "EPS",
+                    "metricValue": 70,
+                    "userId": "user013",
+                    "userName": "user13"
+                },
+                {
+                    "metricName": "EPS",
+                    "metricValue": 73,
+                    "userId": "user014",
+                    "userName": "user14"
+                },
+                {
+                    "metricName": "EPS",
+                    "metricValue": 75,
+                    "userId": "user015",
+                    "userName": "user15"
+                }
+            ]
+        },
+        {
+            "teamId": "Team-002",
+            "teamName": "HR",
+            "teamScore": 70,
+            "userData": [
+                {
+                    "metricName": "EPS",
+                    "metricValue": 71,
+                    "userId": "user006",
+                    "userName": "user6"
+                },
+                {
+                    "metricName": "EPS",
+                    "metricValue": 66,
+                    "userId": "user007",
+                    "userName": "user7"
+                },
+                {
+                    "metricName": "EPS",
+                    "metricValue": 65,
+                    "userId": "user008",
+                    "userName": "user8"
+                },
+                {
+                    "metricName": "EPS",
+                    "metricValue": 78,
+                    "userId": "user009",
+                    "userName": "user9"
+                }
+            ]
+        },
+        {
+            "teamId": "Team-001",
+            "teamName": "Engineering",
+            "teamScore": 75,
+            "userData": [
+                {
+                    "metricName": "EPS",
+                    "metricValue": 70,
+                    "userId": "user001",
+                    "userName": "user1"
+                },
+                {
+                    "metricName": "EPS",
+                    "metricValue": 68,
+                    "userId": "user002",
+                    "userName": "user2"
+                },
+                {
+                    "metricName": "EPS",
+                    "metricValue": 77,
+                    "userId": "user003",
+                    "userName": "user3"
+                },
+                {
+                    "metricName": "EPS",
+                    "metricValue": 75,
+                    "userId": "user004",
+                    "userName": "user4"
+                },
+                {
+                    "metricName": "EPS",
+                    "metricValue": 74,
+                    "userId": "user005",
+                    "userName": "user5"
+                }
+            ]
+        }
+    ],
+    "title": "Strategy Stress Test User Team",
+    "type": "Multipl Bar Chart"
+}

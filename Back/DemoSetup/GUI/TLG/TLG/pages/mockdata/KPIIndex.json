@@ -1,0 +1,55 @@
+{
+    "description": "SST Index is one of the Key Performance Indicator (KPI) expressed as a percentage score against the benchmark.",
+    "kpiData": [
+        {
+            "kpiBenchmark": 60,
+            "kpiName": "Robustness Index",
+            "kpiValue": 50,
+            "region1Color": "Red",
+            "region1Label": "Improve",
+            "region1Threshold": 60,
+            "region2Color": "Green",
+            "region2Label": "Safe",
+            "region2Threshold": 100,
+            "region3Threshold": 0
+        },
+        {
+            "kpiBenchmark": 60,
+            "kpiName": "Resilience Index",
+            "kpiValue": 45,
+            "region1Color": "Red",
+            "region1Label": "Improve",
+            "region1Threshold": 60,
+            "region2Color": "Green",
+            "region2Label": "Safe",
+            "region2Threshold": 100,
+            "region3Threshold": 0
+        },
+        {
+            "kpiBenchmark": 60,
+            "kpiName": "Readiness Index",
+            "kpiValue": 55,
+            "region1Color": "Red",
+            "region1Label": "Improve",
+            "region1Threshold": 60,
+            "region2Color": "Green",
+            "region2Label": "Safe",
+            "region2Threshold": 100,
+            "region3Threshold": 0
+        },
+        {
+            "kpiBenchmark": 60,
+            "kpiName": "SST Index",
+            "kpiValue": 40,
+            "region1Color": "Red",
+            "region1Label": "Improve",
+            "region1Threshold": 60,
+            "region2Color": "Green",
+            "region2Label": "Safe",
+            "region2Threshold": 100,
+            "region3Threshold": 0
+        }
+    ],
+    "title": "Strategy Stress Test Index",
+    "type": "Guage"
+}

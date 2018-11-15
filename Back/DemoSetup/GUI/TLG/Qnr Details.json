@@ -1,0 +1,17 @@
+{
+	"Questionnaire": {
+		"userid": "userid",
+		"prjid": "ProjectID",
+		"toolid": "ToolID",
+		"toolver": "ToolVersion",
+		"tmplname": "TemplateName",
+		"tmplver": "TemplateVersion",
+		"numpgs": "NumberofPages",
+		"pagelst": [
+			{
+				"pgid": "pageid",
+				"pgno": "PagenNo"
+			}
+		]
+	}
+}

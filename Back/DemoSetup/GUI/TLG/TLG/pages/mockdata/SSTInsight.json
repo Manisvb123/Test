@@ -1,0 +1,251 @@
+{
+    "axes": {
+        "xAxisLabel": "Strategy is robust, resilient, and rooted",
+        "yAxisLabel": "Lack of alignment amongst respondents"
+    },
+    "dataPoints": [
+        {
+            "color": "Red",
+            "dataPointLabel": "We have clearly established that there is sufficient market headroom for our planned growth",
+            "indicator": "Robust",
+            "mean": 0.78,
+            "questionId": "Q-001",
+            "stdDev": 91
+        },
+        {
+            "color": "Red",
+            "dataPointLabel": "We have all of the external competitive strengths (eg technology, brand, distribution, scale, access) we need to ensure we can win with our strategy",
+            "indicator": "Robust",
+            "mean": 0.85,
+            "questionId": "Q-002",
+            "stdDev": 55
+        },
+        {
+            "color": "Red",
+            "dataPointLabel": "We have explicitly considered current or potential  non-traditional competitors",
+            "indicator": "Robust",
+            "mean": 0.88,
+            "questionId": "Q-003",
+            "stdDev": 80
+        },
+        {
+            "color": "Red",
+            "dataPointLabel": "We have the critical capabilities that are essential to win with our strategy in ways that are unique to us.",
+            "indicator": "Robust",
+            "mean": 0.77,
+            "questionId": "Q-004",
+            "stdDev": 68
+        },
+        {
+            "color": "Red",
+            "dataPointLabel": "Where required, we know how to acquire the capabilities required to win, and how to internalize them across the organization.",
+            "indicator": "Robust",
+            "mean": 0.35,
+            "questionId": "Q-005",
+            "stdDev": 78
+        },
+        {
+            "color": "Red",
+            "dataPointLabel": "We are confident that our strategy will be profitable within our accepted time frames.",
+            "indicator": "Robust",
+            "mean": 0.62,
+            "questionId": "Q-006",
+            "stdDev": 82
+        },
+        {
+            "dataPointLabel": "We have explicitly factored in competitive responses to our strategy",
+            "indicator": "Resilient",
+            "mean": 0.87,
+            "questionId": "Q-007",
+            "stdDev": 60
+        },
+        {
+            "dataPointLabel": "New entrants with completely different technology will not be able sweep away investment based barriers to entry",
+            "indicator": "Resilient",
+            "mean": 1.08,
+            "questionId": "Q-008",
+            "stdDev": 50
+        },
+        {
+            "dataPointLabel": "There are no potential changes in rules/regulations/costs visible that could upset our assumptions.",
+            "indicator": "Resilient",
+            "mean": 1.2,
+            "questionId": "Q-009",
+            "stdDev": 60
+        },
+        {
+            "dataPointLabel": "We have considered the impact of market shares being lower than the base assumption and revenues growing slower than the base plan.",
+            "indicator": "Resilient",
+            "mean": 0.87,
+            "questionId": "Q-010",
+            "stdDev": 70
+        },
+        {
+            "dataPointLabel": "We have considered the impact of costs being higher than the base assumption and investments needing to be higher than projected.",
+            "indicator": "Resilient",
+            "mean": 1.21,
+            "questionId": "Q-011",
+            "stdDev": 68
+        },
+        {
+            "dataPointLabel": "We can live with the consequences of at least a two of our basic assumptions going wrong (being +/-  10%).",
+            "indicator": "Resilient",
+            "mean": 1.27,
+            "questionId": "Q-012",
+            "stdDev": 60
+        },
+        {
+            "dataPointLabel": "We understand how our profile (eg capabilities, infrastructure, access, customer base ) gives us unique strengths that are hard for a competitor to replicate.",
+            "indicator": "Ready",
+            "mean": 0.77,
+            "questionId": "Q-013",
+            "stdDev": 72
+        },
+        {
+            "dataPointLabel": "We know how to enhance these strengths so that there are serious, on-going  barriers to entry of new competitors",
+            "indicator": "Ready",
+            "mean": 1.01,
+            "questionId": "Q-014",
+            "stdDev": 62
+        },
+        {
+            "dataPointLabel": "We are building on strengths that we already have, and not critically dependant on capabilities that we will have to acquire.",
+            "indicator": "Ready",
+            "mean": 0.54,
+            "questionId": "Q-015",
+            "stdDev": 88
+        },
+        {
+            "dataPointLabel": "The critical capabilities required for success are spread across the organization (or plans to achieve this have been clearly outlined).",
+            "indicator": "Ready",
+            "mean": 0.875,
+            "questionId": "Q-016",
+            "stdDev": 80
+        },
+        {
+            "dataPointLabel": "We understand the ways in which our processes, structures, decision making mechanisms, reward systems need to change to enable the strategy to succeed.",
+            "indicator": "Ready",
+            "mean": 0.86,
+            "questionId": "Q-017",
+            "stdDev": 72
+        },
+        {
+            "dataPointLabel": "Our current culture will support our new strategy or new business model.",
+            "indicator": "Ready",
+            "mean": 1.01,
+            "questionId": "Q-018",
+            "stdDev": 62
+        }
+    ],
+    "dataPtShape": "Square",
+    "description": "SST insights shows how good the strategy is in terms of robustness, resilience and readiness against the level of disagreement between respondents.",
+    "legends": [
+        {
+            "color": "Red",
+            "geoShape": "Square",
+            "txtLabel": "Robust"
+        },
+        {
+            "color": "Green",
+            "geoShape": "Square",
+            "txtLabel": "Resilience"
+        }
+    ],
+    "notes": [
+        "X axis shows mean of responses accross the sample expressed as percentage",
+        "Y axis shows standard deviation of all responses"
+    ],
+    "regions": [
+        {
+            "color": "Orange",
+            "label": "Region1",
+            "x1Coordinate": 50,
+            "x2Coordinate": 50,
+            "x3Coordinate": 87,
+            "x4Coordinate": 0,
+            "y1Coordinate": 0.54,
+            "y2Coordinate": 1.5,
+            "y3Coordinate": 1.5,
+            "y4Coordinate": 0
+        },
+        {
+            "label": "pink",
+            "x1Coordinate": 50,
+            "x2Coordinate": 58,
+            "x3Coordinate": 88,
+            "x4Coordinate": 100,
+            "y1Coordinate": 0.54,
+            "y2Coordinate": 0.3,
+            "y3Coordinate": 1.5,
+            "y4Coordinate": 1.3
+        }
+    ],
+    "summaryTable": {
+        "cellData": [
+            {
+                "cellColor": "blue",
+                "cellText": "Little Concern",
+                "colNumber": 2,
+                "header": true,
+                "isHeader": true,
+                "rowNumber": 1
+            },
+            {
+                "cellColor": "blue",
+                "cellText": "Some Concerns",
+                "colNumber": 3,
+                "header": true,
+                "isHeader": true,
+                "rowNumber": 1
+            },
+            {
+                "cellColor": "blue",
+                "cellText": "Greatest Concerns",
+                "colNumber": 4,
+                "header": true,
+                "isHeader": true,
+                "rowNumber": 1
+            },
+            {
+                "cellColor": "blue",
+                "cellText": "Robust Factors",
+                "colNumber": 1,
+                "header": true,
+                "isHeader": true,
+                "rowNumber": 2
+            },
+            {
+                "cellColor": "white",
+                "cellText": "60%",
+                "colNumber": 2,
+                "header": false,
+                "isHeader": false,
+                "rowNumber": 2
+            },
+            {
+                "cellColor": "white",
+                "cellText": "33%",
+                "colNumber": 3,
+                "header": false,
+                "isHeader": false,
+                "rowNumber": 2
+            },
+            {
+                "cellColor": "white",
+                "cellText": "17%",
+                "colNumber": 4,
+                "header": false,
+                "isHeader": false,
+                "rowNumber": 2
+            }
+        ],
+        "numberOfColumns": 4,
+        "numberOfRows": 4
+    },
+    "summaryTxt": [
+        "5 Resilience factors are in greatest concerns segment",
+        "5 Rooted factors are in greatest or some concerns segment"
+    ],
+    "title": "Strategy Stress Test Insight",
+    "type": "X-Y Scatter plot"
+}

@@ -1,0 +1,21 @@
+{
+	"Questionnaire": {
+		"userid": "userid",
+		"prjid": "ProjectID",
+		"toolid": "ToolID",
+		"toolver": "ToolVersion",
+		"tmplname": "TemplateName",
+		"tmplver": "TemplateVersion",
+		"numpgs": "2",
+		"pagelst": [
+			{
+				"pgid": "PG-001",
+				"pgno": "1"
+			},
+			{
+				"pgid": "PG-002",
+				"pgno": "2"
+			}
+		]
+	}
+}

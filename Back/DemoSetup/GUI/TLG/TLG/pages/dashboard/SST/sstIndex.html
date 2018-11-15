@@ -1,0 +1,29 @@
+  <!-- Main content -->
+  <section class="content">
+    <div class="row">
+      <!--/.col (left) -->
+     <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+        <div class="box box-info">
+         <div class="box-header with-border">
+              <h3 class="box-title"><b>{{title}}</b></h3>
+            </div>
+            <div class="box-body">
+          <!--   <div><div ng-repeat="id in gaugeIds" id="{{id.id}}" ng-if="$index===3" class="col-lg-offset-4"></div></div> -->
+          <div><div class="col-lg-offset-4" ng-repeat="id in gaugeIds" ng-if="$index==3"><div class="sst_index_heading"><b>{{id.name}}</b></div><br/><div  id="{{id.id}}"  ></div></div></div>
+            <div><br/><br/><div class="col-lg-4" ng-repeat="id in gaugeIds" ng-if="$index!=3"><div class="index_heading"><b>{{id.name}}</b></div><br/><div  id="{{id.id}}"  ></div></div></div>
+<!--     <span id="memoryGaugeContainer"></span>
+    <span id="cpuGaugeContainer"></span>
+    <span id="networkGaugeContainer"></span>
+    <span id="testGaugeContainer"></span> -->
+</div>
+</div>
+</div>
+<!--/.col (right) -->
+</div>
+<!-- /.row -->
+</section>
+<!-- /.content -->
+
+
+
+

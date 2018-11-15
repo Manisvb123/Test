@@ -1,0 +1,106 @@
+    <!-- Content Header (Page header) -->
+<!--     <section class="content-header" >
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+      </ol>
+    </section> -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="row">
+        <!--/.col (left) -->
+        <!-- right column -->
+        <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+          <!-- Horizontal Form -->
+          <div class="box box-info">
+            <div class="box-header with-border">
+              <h3 class="box-title"><b>{{title}}</b></h3>
+            </div>
+            <!-- /.box-header -->
+            <!-- form start -->
+            <form class="form-horizontal">
+              <div class="box-body">
+               <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+               <span class="tool_instruction">{{instruction}}</span>
+               </div>
+               <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12" ng-repeat="pd in questionlist.PageQuestions" ng-init="outerIndex=$index">
+            <div class="box box-info">
+            <div class="box-header with-border">
+              <h3 class="box-title"><b>{{pd.pd_name}}</b></h3>
+            </div>
+              <div class="box-body">
+               <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12" ng-repeat="sd in pd.sdlist" ng-init="innerIndex=$index">
+              <b class="sd_name_font_size">{{sd.sd_name}}</b>
+              <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12 question" ng-repeat="ques in sd.qlist" ng-init="questionIndex=$index">
+                <!-- <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12"> <span>{{ques.QnCOntext}}</span></div> -->
+                <span class="question_context">{{ques.QnCOntext}}</span></br>
+                <span>{{ques.QnNo}}</span>.&nbsp;&nbsp;<span style="font-size: 16px;"><b>{{ques.Qn}}</b></span>
+                <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12" >
+              <!-- radio -->
+          <div class="form-group" style="margin-top: 15px;"  ng-repeat="metric in ques.metrics track by $index" ng-init="metricIndex=$index">
+            <!--   <div class="col-xs-12 col-md-6 col-lg-2 col-sm-12 metric_{{$index}}">
+                <label>{{metric.metric}}</label>
+                 </div> -->
+                <div class="col-xs-12 col-md-6 col-lg-2 col-sm-12 label_options option_text" 
+                 ng-repeat="labels in metric.Optlbl track by $index">
+                    <label> <input type="radio" 
+                name="{{outerIndex}}{{innerIndex}}{{questionIndex}}{{metricIndex}}" class="minimal" 
+                 id="{{outerIndex}}{{innerIndex}}{{questionIndex}}{{metricIndex}}{{$index}}"
+                  ng-click="onOptionSelect(outerIndex,innerIndex,questionIndex,metricIndex,$index,labels)"/>
+                 {{labels.labelname.replace("\\", "")}}</label>
+                 </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12" ng-show="isLastPage"><b>Remarks</b></div>
+              <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12" ng-show="isLastPage">
+              <textarea class="form-control" ng-model="questionlist.keys.remarks"></textarea>
+              </div>
+              </div>
+              <!-- /.box-body -->
+              <div class="box-footer">
+              <div class="row">
+        <!-- /.col -->
+        <div class="col-xs-3 col-md-6 col-lg-9 col-sm-6">
+        </div>
+         <div class="col-xs-3 col-md-2 col-lg-1 col-sm-2" >
+                <button type="submit" class="btn btn-warning pull-right ng-hide"  ng-click="getPreviousPagequestiondata()" ng-show="showPreviousButton"><i class="fa fa-arrow-left" aria-hidden="true"></i> &nbsp;&nbsp;Previous</button>
+        </div>
+         <div class="col-xs-3 col-md-2 col-lg-1 col-sm-2" ng-if="isLastPage" >
+          <button type="submit" class="btn btn-info pull-right" ng-disabled="!isQuestionAnswered" ng-click="draftTool()"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;Draft</button>
+        </div>
+        <div class="col-xs-3 col-md-2 col-lg-1 col-sm-2" ng-if="!isLastPage" style="margin-top: 7px;">
+          <span class="pull-right">Step <b>{{currentPageNo}}</b> of <b>{{totalNumberofPages}}</b></span>
+        </div>
+        <div class="col-xs-3 col-md-2 col-lg-1 col-sm-2">
+          <button type="submit" class="btn btn-success pull-right" 
+          ng-disabled="!isQuestionAnswered" ng-click="getNextPagequestiondata()" 
+          ng-hide="isLastPage">Next&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+           <button type="submit" class="btn btn-success pull-right" 
+           ng-click="submitTool()" ng-disabled="!isQuestionAnswered" ng-show="isLastPage">Submit</i></button>
+        </div>
+        <!-- /.col -->
+      </div>
+                
+              </div>
+              <!-- /.box-footer -->
+            </form>
+          </div>
+
+          <!-- /.box -->
+        </div>
+        <!--/.col (right) -->
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.content -->
+
+
+
+
+
+    

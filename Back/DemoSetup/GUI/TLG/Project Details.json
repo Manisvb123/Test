@@ -1,0 +1,13 @@
+{
+	"Project Details": {
+		"prjid": "ProjectID",
+		"orgid": "OrganizaionID",
+		"details": [
+			{
+				"userid": "UserID",
+				"toolid": "ToolID",
+				"status": "status"
+			}
+		]
+	}
+}

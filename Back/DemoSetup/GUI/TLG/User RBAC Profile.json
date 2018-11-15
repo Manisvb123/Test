@@ -1,0 +1,16 @@
+{
+	"usr-RBAC": {
+		"usrid": "usrid",
+		"org": "organization",
+		"RBAC": [
+			{
+				"roleid": "RoleID",
+				"name": "RoleName",
+				"obj": "Object",
+				"objtyp": "ObjectType",
+				"oprn": "Operation",
+				"perm": "permission" 
+			}
+		]
+}
+}

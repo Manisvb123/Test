@@ -1,0 +1,18 @@
+{
+	"Page": {
+		"userid": "userid",
+		"prjid": "ProjectID",
+		"toolid": "ToolID",
+		"toolver": "ToolVersion",
+		"tmplname": "TemplateName",
+		"tmplver": "TemplateVersion",
+		"pgno": "PageNo",
+		"pgid": "PageID",
+		"numqns": "NumberofQns",
+		"commonInfo": {
+			"title": "Title",
+			"inst": "Instructions",
+			"Rmrks": "Remarks"
+		}
+	}
+}

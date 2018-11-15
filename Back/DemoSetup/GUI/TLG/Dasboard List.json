@@ -1,0 +1,9 @@
+{
+	"Dashboards": [
+		{
+			"name": "name",
+			"type": "type"
+			"location": "location"
+		}
+	]
+}

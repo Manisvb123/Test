@@ -1,0 +1,76 @@
+.option_text{
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	text-align: center;
+}
+.metric_0{
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	text-align: center;
+	border-right: 4px solid #f39c12;
+	padding-bottom: 2px
+}
+
+.metric_1{
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	text-align: center;
+	border-right: 4px solid #00c0ef;
+	padding-bottom: 2px
+}
+
+.metric_2{
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	text-align: center;
+	border-right: 4px solid #00a65a;
+	padding-bottom: 2px
+}
+
+.question:hover { 
+    background-color: #ecf0f5;
+    box-shadow: 0 0 3px;
+    transition: box-shadow .2s;
+
+}
+
+.label_options:hover { 
+    background-color: #ecf0f5;
+    box-shadow: 0 0 3px;
+    transition: box-shadow .2s;
+
+}
+.metric_section :hover{
+	background-color: #ecf0f5;
+    box-shadow: 0 0 3px;
+    transition: box-shadow .2s;
+}
+
+.c3-region-gr{
+  fill: green;
+  fill-opacity: 0.1; 
+}
+
+.c3-region-r{
+  fill: red;
+  fill-opacity: 0.1; 
+ }
+
+ .question_context{
+ 	font-style: italic;
+ 	font-size: 15px;
+ }
+
+ .tool_instruction{
+ 	font-style: italic;
+    color: #ea2e2e;
+    font-size: 15px;
+ }
+
+ .sd_name_font_size{
+ 	font-size: 15px;
+ }
+ .index_heading{
+ 	font-size: 16px;
+    margin-left: 17%;
+ }
+ .sst_index_heading{
+ 	font-size: 16px;
+    margin-left: 10%;
+ }

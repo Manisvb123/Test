@@ -1,0 +1,112 @@
+{
+    "keys": {
+        "uid": "rekhas",
+        "pid": "Merit-2018",
+        "toolid": "SST-001",
+        "templateid": "SST-Template",
+        "pageid": "PG-001"
+    },
+    "PageQuestions": [
+    {
+    "pd_name":"Robust",
+    "sdlist":[
+        {
+            "sd_name":"Looking Outwards",
+             "qlist":[
+                 {"QnNo": "1","QnID": "Q-001", "QnCOntext": "QnCOntext", "Qn": "We have clearly established that there is sufficient market headroom for our planned growth","Type":"Multi_choice",
+                   "Optlbl": [{"labelname":"Strongly Agree","labelid":"1","selected":true,"metric":"Impact"},
+                                        {"labelname":"Agree","labelid":"2","selected":false,"metric":"Impact"},
+                                        {"labelname":"Disagree","labelid":"3","selected":false,"metric":"Impact"},
+                                        {"labelname":"Strongly Disagree","labelid":"4","selected":false,"metric":"Impact"},
+                                        {"labelname":"Don't Know","labelid":"5","selected":false,"metric":"Impact"},
+                                        {"labelname":"Strongly Agree","labelid":"1","selected":false,"metric":"Probability"},
+                                        {"labelname":"Agree","labelid":"2","selected":true,"metric":"Probability"},
+                                        {"labelname":"Disagree","labelid":"3","selected":false,"metric":"Probability"},
+                                        {"labelname":"Strongly Disagree","labelid":"4","selected":false,"metric":"Probability"},
+                                        {"labelname":"Don't Know","labelid":"5","selected":false,"metric":"Probability"},
+                                        {"labelname":"Strongly Agree","labelid":"1","selected":false,"metric":"Level of Confidence"},
+                                        {"labelname":"Agree","labelid":"2","selected":false,"metric":"Level of Confidence"},
+                                        {"labelname":"Disagree","labelid":"3","selected":false,"metric":"Level of Confidence"},
+                                        {"labelname":"Strongly Disagree","labelid":"4","selected":false,"metric":"Level of Confidence"},
+                                        {"labelname":"Don't Know","labelid":"5","selected":false,"metric":"Level of Confidence"}
+                                       ],
+                             "UsrOpt": ["1"]}
+             ]
+        
+    },
+         {
+            "sd_name":"Looking inward",
+                         "qlist":[
+                 {"QnNo": "1","QnID": "Q-001", "QnCOntext": "QnCOntext", "Qn": "We have clearly established that there is sufficient market headroom for our planned growth","Type":"Multi_choice",
+                   "Optlbl": [{"labelname":"Strongly Agree","labelid":"1","selected":false,"metric":"Impact"},
+                                        {"labelname":"Agree","labelid":"2","selected":true,"metric":"Impact"},
+                                        {"labelname":"Disagree","labelid":"3","selected":false,"metric":"Impact"},
+                                        {"labelname":"Strongly Disagree","labelid":"4","selected":false,"metric":"Impact"},
+                                        {"labelname":"Don't Know","labelid":"5","selected":false,"metric":"Impact"},
+                                        {"labelname":"Strongly Agree","labelid":"1","selected":false,"metric":"Probability"},
+                                        {"labelname":"Agree","labelid":"2","selected":false,"metric":"Probability"},
+                                        {"labelname":"Disagree","labelid":"3","selected":false,"metric":"Probability"},
+                                        {"labelname":"Strongly Disagree","labelid":"4","selected":false,"metric":"Probability"},
+                                        {"labelname":"Don't Know","labelid":"5","selected":false,"metric":"Probability"},
+                                        {"labelname":"Strongly Agree","labelid":"1","selected":false,"metric":"Level of Confidence"},
+                                        {"labelname":"Agree","labelid":"2","selected":false,"metric":"Level of Confidence"},
+                                        {"labelname":"Disagree","labelid":"3","selected":true,"metric":"Level of Confidence"},
+                                        {"labelname":"Strongly Disagree","labelid":"4","selected":false,"metric":"Level of Confidence"},
+                                        {"labelname":"Don't Know","labelid":"5","selected":false,"metric":"Level of Confidence"}
+                                       ],
+                             "UsrOpt": ["1"]},
+                            {"QnNo": "2","QnID": "Q-003", "QnCOntext": "QnCOntext", "Qn": "We have explicitly considered current or potential  non-traditional competitors","Type":"Multi_choice",
+                             "Optlbl": [{"labelname":"Strongly Agree","labelid":"1","selected":false,"metric":"Impact"},
+                                        {"labelname":"Agree","labelid":"2","selected":false,"metric":"Impact"},
+                                        {"labelname":"Disagree","labelid":"3","selected":false,"metric":"Impact"},
+                                        {"labelname":"Strongly Disagree","labelid":"4","selected":false,"metric":"Impact"},
+                                        {"labelname":"Don't Know","labelid":"5","selected":false,"metric":"Impact"},
+                                        {"labelname":"Strongly Agree","labelid":"1","selected":true,"metric":"Probability"},
+                                        {"labelname":"Agree","labelid":"2","selected":false,"metric":"Probability"},
+                                        {"labelname":"Disagree","labelid":"3","selected":false,"metric":"Probability"},
+                                        {"labelname":"Strongly Disagree","labelid":"4","selected":false,"metric":"Probability"},
+                                        {"labelname":"Don't Know","labelid":"5","selected":false,"metric":"Probability"},
+                                        {"labelname":"Strongly Agree","labelid":"1","selected":false,"metric":"Level of Confidence"},
+                                        {"labelname":"Agree","labelid":"2","selected":false,"metric":"Level of Confidence"},
+                                        {"labelname":"Disagree","labelid":"3","selected":true,"metric":"Level of Confidence"},
+                                        {"labelname":"Strongly Disagree","labelid":"4","selected":false,"metric":"Level of Confidence"},
+                                        {"labelname":"Don't Know","labelid":"5","selected":false,"metric":"Level of Confidence"}
+                                       ],
+                             "UsrOpt": ["1","2"]
+                            }
+             ]
+        
+    }
+        ]
+    },
+     {
+    "pd_name":"Resilient",
+    "sdlist":[
+        {
+            "sd_name":"Looking Outwards",
+                         "qlist":[
+                 {"QnNo": "1","QnID": "Q-001", "QnCOntext": "QnCOntext", "Qn": "We have clearly established that there is sufficient market headroom for our planned growth","Type":"Multi_choice",
+                   "Optlbl": [{"labelname":"Strongly Agree","labelid":"1","selected":false,"metric":"Impact"},
+                                        {"labelname":"Agree","labelid":"2","selected":false,"metric":"Impact"},
+                                        {"labelname":"Disagree","labelid":"3","selected":false,"metric":"Impact"},
+                                        {"labelname":"Strongly Disagree","labelid":"4","selected":false,"metric":"Impact"},
+                                        {"labelname":"Don't Know","labelid":"5","selected":false,"metric":"Impact"},
+                                        {"labelname":"Strongly Agree","labelid":"1","selected":false,"metric":"Probability"},
+                                        {"labelname":"Agree","labelid":"2","selected":false,"metric":"Probability"},
+                                        {"labelname":"Disagree","labelid":"3","selected":false,"metric":"Probability"},
+                                        {"labelname":"Strongly Disagree","labelid":"4","selected":false,"metric":"Probability"},
+                                        {"labelname":"Don't Know","labelid":"5","selected":false,"metric":"Probability"},
+                                        {"labelname":"Strongly Agree","labelid":"1","selected":true,"metric":"Level of Confidence"},
+                                        {"labelname":"Agree","labelid":"2","selected":false,"metric":"Level of Confidence"},
+                                        {"labelname":"Disagree","labelid":"3","selected":false,"metric":"Level of Confidence"},
+                                        {"labelname":"Strongly Disagree","labelid":"4","selected":false,"metric":"Level of Confidence"},
+                                        {"labelname":"Don't Know","labelid":"5","selected":false,"metric":"Level of Confidence"}
+                                       ],
+                             "UsrOpt": ["1"]}
+             ]
+        
+    }
+        ]
+    }
+]
+}

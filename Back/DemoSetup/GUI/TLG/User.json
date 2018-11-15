@@ -1,0 +1,17 @@
+
+	"User": {
+		"FN": "FirstName",
+		"LN": "lastName",
+		"Org": "Organization",
+		"dept": "Department",
+		"title": "Title",
+		"email": "email",
+		"phone": "phone",
+		"Align+ roles": [
+			{
+				"roleid": "RoleID",
+				"name": "RoleName"
+			}
+		]
+	}
+}
